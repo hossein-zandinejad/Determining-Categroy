@@ -14,7 +14,7 @@ This repository contains the code for a category determination project using two
 
 The goal of this project is to determine the category of each application using Persian description. Text mining technology is now broadly applied to a wide variety of government, research, and business needs. All these groups may use text mining for records management and searching documents relevant to their daily activities.
 
-## Neural Network Model (NN.py)
+## Neural Network Model (NN.ipynb)
 
 NN.py contains the code for implementing a Neural Network model for text classification. It uses libraries such as Keras and TensorFlow to build and train the model. Below are the key steps and components of the code:
 
@@ -25,7 +25,7 @@ NN.py contains the code for implementing a Neural Network model for text classif
 - Training the model and evaluating its performance.
 - Making predictions on test data.
 
-## Linear Support Vector Classifier (linearsvc.py)
+## Linear Support Vector Classifier (linearSVC.ipynb)
 
 The linearsvc.py file contains code for implementing a Linear Support Vector Classifier for text classification. Here are the main steps and components of the code:
 
