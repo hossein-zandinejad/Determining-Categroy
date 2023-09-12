@@ -1,6 +1,6 @@
-# Project Name
+# Determining Catagory
 
-Description of your project goes here.
+This repository contains the code for a category determination project using two different models: Linear Support Vector Classifier (Linear SVC) and Neural Networks (NN).
 
 ## Table of Contents
 
@@ -8,7 +8,7 @@ Description of your project goes here.
 2. [Neural Network Model (NN.py)](#neural-network-model-nnpy)
 3. [Linear Support Vector Classifier (linearsvc.py)](#linear-support-vector-classifier-linearsvcpy)
 4. [Dataset and Features](#dataset-and-features)
-5. [Usage](#usage)
+5. [Installation](#installation)
 
 ## Introduction
 
@@ -45,6 +45,16 @@ The dataset used in this project is the SummerCamp 1400 CafeBazaar dataset. It c
 
 The dataset was preprocessed, and word embeddings were created using pre-trained FastText vectors for the Persian language.
 
-## Usage
+## Installation
 
-Provide instructions on how to use your code. Include any prerequisites, installation steps, and examples of running the code.
+To use this project, you need to install the following dependencies:
+
+- https://pandas.pydata.org/: `pip install pandas`
+- https://numpy.org/: `pip install numpy`
+- https://matplotlib.org/: `pip install matplotlib`
+- https://keras.io/: `pip install keras`
+- https://scikit-learn.org/: `pip install scikit-learn`
+- https://github.com/sobhe/hazm: `pip install hazm`
+- https://pypi.org/project/fasttext/: `pip install fasttext`
+
+Make sure to run these commands in your Python environment to install the necessary libraries.
