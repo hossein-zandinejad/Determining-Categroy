@@ -12,7 +12,7 @@ This repository contains the code for a category determination project using two
 
 ## Introduction
 
-Provide a brief introduction to your project, including its purpose and any important context.
+The goal of this project is to determine the category of each application using Persian description. Text mining technology is now broadly applied to a wide variety of government, research, and business needs. All these groups may use text mining for records management and searching documents relevant to their daily activities.
 
 ## Neural Network Model (NN.py)
 
