@@ -38,7 +38,7 @@ The linearsvc.py file contains code for implementing a Linear Support Vector Cla
 ## Dataset and Features
 
 The dataset used in this project is the SummerCamp 1400 CafeBazaar dataset. It consists of the following features:
-
+![CafeBazaar](cafebazaarlogo.jpg)
 - "app_id": Application ID (not used in this project).
 - "description_fa": Persian language descriptions of applications.
 - "label": Labels indicating the category of each application.
