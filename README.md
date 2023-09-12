@@ -1,67 +1,50 @@
-# Category Determination Project
+# Project Name
 
-This repository contains the code for a category determination project using two different models: Linear Support Vector Classifier (Linear SVC) and Neural Networks (NN).
+Description of your project goes here.
 
 ## Table of Contents
 
-- [Project Structure](#project-structure)
-  - [Neural Network Model (`nn.py`)](#neural-network-model-nnpy)
-    - [Description](#description)
-    - [Dependencies](#dependencies)
-    - [Installation](#installation)
-  - [Linear Support Vector Classifier Model (`linearsvc.py`)](#linear-support-vector-classifier-model-linearsvcpy)
-    - [Description](#description-1)
-    - [Dependencies](#dependencies-1)
-    - [Installation](#installation-1)
-- [Instructions for Running the Code](#instructions-for-running-the-code)
+1. [Introduction](#introduction)
+2. [Neural Network Model (NN.py)](#neural-network-model-nnpy)
+3. [Linear Support Vector Classifier (linearsvc.py)](#linear-support-vector-classifier-linearsvcpy)
+4. [Dataset and Features](#dataset-and-features)
+5. [Usage](#usage)
 
-## Project Structure
+## Introduction
 
-### Neural Network Model (`nn.py`)
+Provide a brief introduction to your project, including its purpose and any important context.
 
-#### Description
-The `nn.py` script contains the code for the Neural Network (NN) model used for category determination.
+## Neural Network Model (NN.py)
 
-#### Dependencies
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `csv`
-- `keras`
-- `sklearn.metrics`
-- `tensorflow.keras.models`
-- `tensorflow`
-- `hazm` (for Persian text processing)
+NN.py contains the code for implementing a Neural Network model for text classification. It uses libraries such as Keras and TensorFlow to build and train the model. Below are the key steps and components of the code:
 
-### Linear Support Vector Classifier Model (`linearsvc.py`)
+- Importing necessary libraries.
+- Loading and preprocessing the dataset.
+- Creating word embeddings using FastText.
+- Building the Neural Network model architecture.
+- Training the model and evaluating its performance.
+- Making predictions on test data.
 
-#### Description
-The `linearsvc.py` script contains the code for the Linear Support Vector Classifier (Linear SVC) model used for category determination.
+## Linear Support Vector Classifier (linearsvc.py)
 
-#### Dependencies
-- `pandas`
-- `numpy`
-- `sklearn.pipeline`
-- `sklearn.feature_extraction.text`
-- `sklearn.preprocessing`
-- `sklearn.svm` (LinearSVC)
-- `hazm` (for Persian text processing)
+The linearsvc.py file contains code for implementing a Linear Support Vector Classifier for text classification. Here are the main steps and components of the code:
 
-#### Installation
-You can install the required dependencies using the following command:
+- Importing libraries, including scikit-learn and Hazm.
+- Loading and preprocessing the dataset.
+- Creating a pipeline for text classification.
+- Training the Linear Support Vector Classifier.
+- Making predictions on both training and test data.
 
-```
-pip install pandas numpy matplotlib keras scikit-learn tensorflow hazm
+## Dataset and Features
 
-```
-## Instructions for Running the Code
+The dataset used in this project is the SummerCamp 1400 CafeBazaar dataset. It consists of the following features:
 
-To run these scripts and reproduce the results:
+- "app_id": Application ID (not used in this project).
+- "description_fa": Persian language descriptions of applications.
+- "label": Labels indicating the category of each application.
 
-1. Make sure you have all the required dependencies installed as listed in the respective script descriptions.
-2. Download the dataset files (not included in this repository) and place them in the same directory as the scripts.
-3. Run the `nn.py` and `linearsvc.py` scripts to train the models and make predictions.
+The dataset was preprocessed, and word embeddings were created using pre-trained FastText vectors for the Persian language.
 
-Feel free to customize the code and experiment with different parameters to improve the performance of the models.
+## Usage
 
-**Note**: Make sure to properly credit and reference the source of the pre-trained word embeddings (fastText) in your project.
+Provide instructions on how to use your code. Include any prerequisites, installation steps, and examples of running the code.
