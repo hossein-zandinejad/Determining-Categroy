@@ -1,5 +1,7 @@
 # Determining Catagory
 
+![CafeBazaar Logo](/Codes/cafebazaarlogo_1.png)
+
 This repository contains the code for a category determination project using two different models: Linear Support Vector Classifier (Linear SVC) and Neural Networks (NN).
 
 ## Table of Contents
